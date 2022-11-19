@@ -18,6 +18,7 @@ namespace DI_Example.Controllers
         {
             CustomerModel customer = new CustomerModel();
             customer.BirthDate = new DateTime(1997, 7, 1);
+
             customer.Id = 22;
             customer.Name = "Qais Abu-Mwais";
             return customer.calculateAge(_customerService);
